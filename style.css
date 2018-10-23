@@ -1,0 +1,118 @@
+body {
+	background-color: black;
+	color: white;
+	cursor: default;
+}
+
+h1, h2, h3, h4, h5, .scifiHead {
+	font-family: 'Gugi';
+}
+
+#leftDiv {
+	width: 64%;
+	height: 90%;
+	overflow-y: auto;
+}
+
+#rightDiv {
+	float: right;
+	width: 33%;
+	height: 90%;
+	overflow-y: auto;
+}
+
+.topDiv {
+	height: 5%;
+}
+
+#clockDiv {
+	text-align: right;
+}
+
+#clockSpeedSlider {
+	width: 25%;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+
+.planetMap {
+	width: 100%;
+}
+
+h2 {
+	margin-bottom: 0;
+}
+
+h3 {
+	margin-bottom: 0;
+	margin-left: 5%;
+}
+
+.indented {
+	margin-left: 5%;
+	margin-top: 0;
+}
+
+ul {
+	margin-top: 0;
+}
+
+.currencySpan {
+	font-size: 50%;
+	padding: 0.25em;
+	padding-right: 0.6em;
+	border-radius: 0.5em;
+	vertical-align: middle;
+	margin-left: 0.5em;
+	letter-spacing: -0.25em;
+}
+
+.petajouleSpan {
+	color: black;
+	background-color: orange;
+}
+
+.megajouleSpan {
+	color: black;
+	background-color: cyan;
+}
+
+.territoriesDiv {
+	padding-left: 5%;
+}
+
+.territoryDiv {
+	font-size: 0.75em;
+	width: 12%;
+	float:left;
+	text-align: center;
+	border: 1px solid grey;
+	margin-left: 0.25vw;
+	margin-right: 0.25vw;
+	margin-top: 0.25vh;
+	margin-bottom: 0.25vh;
+	padding: 0.25vh;
+}
+
+table {
+	margin-left: 5%;
+}
+
+td:first-child {
+	text-align: right;
+}
+
+td {
+	text-align: center;
+	vertical-align: top;
+	padding-left: 1vw;
+	padding-right: 1vw;
+}
+
+tr:nth-child(2n) {
+	background: #222;
+}
+
+.industryEffects {
+	text-align: left;
+}
